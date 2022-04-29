@@ -1,9 +1,3 @@
-function gotomyaccount(){
-    window.location.href = "html_assignment.html";
-}
-function gotonewspage(){
-    window.location.href="Untitled-1.html";
-}
 function switch_body() {
     var element1 = document.body;
     var element2=document.getElementById("navigationBar");
