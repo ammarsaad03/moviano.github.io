@@ -4,6 +4,7 @@ body {
     font-size:20px;
 }
 body.dark-mode{
+    font-family: 'Courier New', Courier, monospace;
     background-color: #eaebea;
     color: #0c0e0c;
 }
@@ -51,20 +52,18 @@ li.navElement a {
 #navNews #news.dark-mode,#navHome #home.dark-mode,#navShop #shop.dark-mode,
 #navSwitch #switch.dark-mode,#navLogo #logo.dark-mode,#navMenu #menu.dark-mode{
     display: block;
-    color:#eaebea;
+    color:#d8323c;
     text-align: center; 
     padding: 14px 16px;
     text-decoration: none;cursor: pointer;
 }
+#navNews #news.dark-mode:hover,#navHome #home.dark-mode:hover,#navShop #shop.dark-mode:hover,
+#navSwitch #switch.dark-mode:hover,#navLogo #logo.dark-mode:hover,#navMenu #menu.dark-mode:hover{
+    color: #eee;
+}
 #navNews a:hover,#navHome a:hover,#navShop a:hover ,#navSwitch a:hover,#navMenu a:hover{
     background-color: #0c0e0c;cursor: pointer;
     color:#eaebea;
-}
-#navNews a.dark-mode:hover,#navHome a.dark-mode:hover,
-#navShop a.dark-mode:hover,#navSwitch a.dark-mode:hover,
-#navMenu a.dark-mode:hover{
-    color: #d8323c;
-    cursor: pointer;
 }
 .clear{
     clear:both;
@@ -106,6 +105,9 @@ ul#sidebar #sidebarElement5.dark-mode:hover{
 }
 #content{
     text-align: center;
+}
+#content.dark-mode{
+    display: flex;
 }
 #gallery1:hover,#gallery2:hover,#gallery3:hover,#gallery4:hover,#gallery5:hover,#gallery6:hover{
     border:2px solid #d8323c;

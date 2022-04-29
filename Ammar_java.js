@@ -1,3 +1,9 @@
+function gotomyaccount(){
+    window.location.href = "html_assignment.html";
+}
+function gotonewspage(){
+    window.location.href="Untitled-1.html";
+}
 function switch_body() {
     var element1 = document.body;
     var element2=document.getElementById("navigationBar");
@@ -21,20 +27,21 @@ function switch_body() {
     var element20=document.getElementById("sidebarElement3");
     var element21=document.getElementById("sidebarElement4");
     var element22=document.getElementById("sidebarElement5");
-    var element23=document.getElementById("gallery1");
-    var element24=document.getElementById("desc1");
-    var element25=document.getElementById("gallery2");
-    var element26=document.getElementById("desc2");
-    var element27=document.getElementById("gallery3");
-    var element28=document.getElementById("desc3");
-    var element29=document.getElementById("gallery4");
-    var element30=document.getElementById("desc4");
-    var element31=document.getElementById("gallery5");
-    var element32=document.getElementById("desc5");
-    var element33=document.getElementById("gallery6");
-    var element34=document.getElementById("desc6");
-    /*var element25=document.getElementById("");
-    var element26=document.getElementById("");
+    var element23=document.getElementById("content");
+    var element24=document.getElementById("gallery1");
+    var element25=document.getElementById("desc1");
+    var element26=document.getElementById("gallery2");
+    var element27=document.getElementById("desc2");
+    var element28=document.getElementById("gallery3");
+    var element29=document.getElementById("desc3");
+    var element30=document.getElementById("gallery4");
+    var element31=document.getElementById("desc4");
+    var element32=document.getElementById("gallery5");
+    var element33=document.getElementById("desc5");
+    var element34=document.getElementById("gallery6");
+    var element35=document.getElementById("desc6");
+    
+    /*var element26=document.getElementById("");
     var element27=document.getElementById("");
     var element28=document.getElementById("");*/
         element1.classList.toggle("dark-mode");
@@ -71,6 +78,6 @@ function switch_body() {
         element32.classList.toggle("dark-mode");
         element33.classList.toggle("dark-mode");
         element34.classList.toggle("dark-mode");
-        /*element25.classList.toggle("dark-mode");
-        element26.classList.toggle("dark-mode");*/
+        element35.classList.toggle("dark-mode");
+        /*element36.classList.toggle("dark-mode");*/
     }
